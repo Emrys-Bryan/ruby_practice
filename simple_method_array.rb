@@ -16,4 +16,4 @@
     arregloString.delete("Cesar")#delete cadena
     arregloString.delete_at(2)#delete_at posicion
     print arregloString
-    print arregloString
+    print arregloString          #Signo de exclamacion ! para marcar un cambio permanente
