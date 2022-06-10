@@ -1,3 +1,4 @@
+require 'csv'
 #leyendo informacion archivos
 puts data = open('data.data').read
 #leyendo informacion archivos y pasando un array
@@ -8,3 +9,6 @@ puts ""
 reglones.each do |r|
     puts r.upcase 
 end
+#leer un csv
+print mexican_food = CSV.read('mexican_food.csv')
+print mexican_food
